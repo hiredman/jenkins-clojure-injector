@@ -7,7 +7,7 @@ It generates a jenkins plugin class that calls your clojure code on load.
 
 ## Usage
 
-Put `[jenkins-clojure-injector "0.1.0-SNAPSHOT"]` into the `:plugins`
+Put `[org.thelastcitadel/jenkins-clojure-injector "0.1.0"]` into the `:plugins`
 vector of your project.clj.
 
 add the name of your main function to your project.clj under the
